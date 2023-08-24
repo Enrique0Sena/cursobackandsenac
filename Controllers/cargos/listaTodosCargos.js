@@ -1,0 +1,5 @@
+
+
+exports.listarTodasCargos = (req, res) => {
+
+}

@@ -1,0 +1,3 @@
+exports.listarUmEndereco = (req, res) => {
+    
+}

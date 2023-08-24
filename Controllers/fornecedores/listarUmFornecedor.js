@@ -1,0 +1,3 @@
+exports.listarUmFornecedor = (req, res) => {
+    
+}

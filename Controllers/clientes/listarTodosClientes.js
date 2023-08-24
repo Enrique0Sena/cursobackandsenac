@@ -1,0 +1,3 @@
+exports.listarTodosClientes = (req, res) => {
+    
+}

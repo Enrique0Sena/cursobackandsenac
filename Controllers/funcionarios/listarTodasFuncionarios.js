@@ -1,0 +1,3 @@
+exports.listarTodasFuncionarios = (req, res) => {
+    
+}

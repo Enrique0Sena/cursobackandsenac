@@ -1,0 +1,3 @@
+exports.listarUmaCargo = (req, res) => {
+    
+}

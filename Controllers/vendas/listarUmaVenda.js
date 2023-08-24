@@ -1,0 +1,3 @@
+exports.listarUmaVenda = (req, res) => {
+    
+}
