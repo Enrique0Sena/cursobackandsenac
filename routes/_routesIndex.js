@@ -11,9 +11,10 @@ router.use(rotaPadrao + "Produtos_vendas", require("./Produtos_vendasRoute"));
 router.use(rotaPadrao + "Produtos", require("./ProdutosRoute"));
 router.use(rotaPadrao + "Vendas", require("./vendasRoute"));
 router.use("/", (req, res) => {
+    console.log("entrei");
     console.log(req.url, req.method, req.ip, req.body);
-    return res.sendStatus(404)
-})
+    return res.sendStatus(418)
+});
 
 // http://localhost:5001/apiMercado/Categorias
 // http://localhost:5001/apiMercado/Funcionarios

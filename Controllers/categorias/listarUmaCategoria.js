@@ -1,3 +1,5 @@
+
+
 exports.listarUmaCategoria = (req, res) => {
     const idCatergoria = req.query.id;
     if (!idCatergoria) {

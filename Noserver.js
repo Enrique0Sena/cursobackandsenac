@@ -1,12 +1,11 @@
 const express = require ("express");
-const app = express ();
-const conexaoDb = require ("./Banco/conexaoDb")
+const { conexaoBanco } = require ("./Banco/conexaoDb")
 require("dotenv").config();
-require ("./routes/_routesIndex")
-
-// hbununuh
-// 6tytby
 const port = process.env.PORTA;
+const app = express ();
+
+app.use(require("./routes/_routesIndex"));
+
 app.listen(port,() =>{ 
     console.log(`Servidor rodando na porta: ${port}`)
 })
