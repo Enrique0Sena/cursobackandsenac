@@ -3,6 +3,7 @@ const controller = require("../Controllers/categorias/_categoriasControllerIndex
 
 router.get("/listartodascategorias", controller.listarTodasCategorias);
 router.get("/listarUmacategoria", controller.listarUmaCategoria);
+router.post("/listarUmacategoria", controller.listarUmaCategoria);
 
 // http://localhost:5001/apiMercado/Categorias/listartodascategorias
 // http://localhost:5001/apiMercado/Categorias/listarUmacategoria
